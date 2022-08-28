@@ -1,3 +1,5 @@
+Repository for "RECOVERING GOVERNING EQUATIONS OF PARTIAL DIFFERENTIAL EQUATIONS VIA FRIEDRICHS LEARNING" (in progress)
+
 main.py: 
 Training dicts are defined, type of H and G chosen, train functions called.
 
