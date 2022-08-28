@@ -1,0 +1,25 @@
+Training type: fl
+Loss type: 1
+Net type: 2
+
+Hyperparameters:
+lrG: 0.0003
+lrH: 0.0003
+lrv: 0.003
+flag_decay: True
+lrG_decay_rate: 20000
+lrH_decay_rate: 20000
+lrv_decay_rate: 20000
+ms: 50
+mt: 50
+n_epochs: 50000
+v_epochs: 10
+HG_epochs: 1
+
+Function type:
+H(x) = exp(-sin(2*pi*x))/20
+G(x) = cos(2*pi*x)
+
+Minimum loss1: 1.0707e-06, loss2: 1.3715e-06
+Minimum relative L2 error H: 3.9082e-01, G: 9.0351e-01
+Training time: 12596.716 s, Avg per epoch: 0.252 s

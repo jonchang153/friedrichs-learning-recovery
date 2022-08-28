@@ -1,0 +1,29 @@
+Training type: fl
+Loss type: 4
+Net type: 1
+
+Hyperparameters:
+lrG: 0.0003
+lrH: 0.0003
+lrv: 0.003
+flag_decay: True
+lrG_decay_rate: 20000
+lrH_decay_rate: 20000
+lrv_decay_rate: 20000
+ms: 50
+mt: 50
+n_epochs: 100000
+v_epochs: 0
+HG_epochs: 1
+
+Function type:
+H(x) = 2
+G(x) = 0.5
+
+Minimum loss1: 0.0000000000, loss2: 0.0000000053
+Minimum relative L2 error H: 0.0002074, G: 0.0163925
+Training time: 1346.55 s
+
+Trained with multiply by v and avg square loss
+
+Tested with v = 1 everywhere and 20000 learning rate decay
