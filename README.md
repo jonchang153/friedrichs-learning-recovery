@@ -7,7 +7,7 @@ train_1d_uniform_fl.py and train_1d_uniform_ls.py:
 Training defined with weak form and strong form.
 
 loss.py:
-Gradient and loss functions defined, with strong form, weak form, and various types of weak form.
+Gradient and loss functions defined, with strong form, weak form, and various types of weak form. (in progress: testing various loss functions)
 
 data.py:
 Different H and G are defined, along with functions that compute u numerically with FDM. Then also computes u_t, u_x, u_xx numerically with FDM, to be used in loss functions.
